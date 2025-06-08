@@ -1,0 +1,359 @@
+started with Oops,
+What are the 4 pillars?
+What are they, explain and special focus on polymorphism.
+Then he moved to collections
+Explain Overall collection framework explain.
+Which data structure is used in which scenario?
+Gave few scenarios and asked what data structure I would use...
+What is the word transient?
+What design pattern you know....explain Strategy, decorator
+Explain solid, other clean code principles that you used(kiss, dry yagni, naming conventions, number of lines in a method)
+Streams:  if you have an employee class, sort it based on dept and then sal, we need to write the whole code including Employee class.
+Why do we need jpa
+What is jpa
+What are the annotations used here?
+Where is the jpa implementation as it is an interface(proxy class it creates and explain this-> he expects this answer)
+What Git operations do you typically perform in your sprint tasks?
+How do you update your local branch with the latest changes from master/develop?
+Why do we create a Pull Request (PR) or Merge Request (MR)?
+How do you get your code reviewed after completing a task?
+Why do we use Maven?
+Apart from dependency management, what other activities does Maven support?
+Why do we need unit testing?
+What tools and annotations have you used for unit testing?
+How do you test a GET API using JUnit/Mockito?
+What parts of a controller do you mock and why?
+What is the Decorator Pattern?
+How is the Decorator Pattern implemented structurally?
+Why Spring Boot? What advantages does it provide?
+What annotations have you used in Spring Boot?
+How do you implement a global custom exception handler?
+What annotation is used for global exception handling?
+How do you validate an incoming request in Spring?
+Which dependency is required for @Valid?
+Difference between @PathVariable and query parameters?
+How do you annotate an entity class in JPA?
+How do you create a repository for Employee?
+Where is the interface implemented? Can we instantiate it?
+How does Spring Boot manage repository implementation?
+
+What is Java
+What is Object
+What are pillars of OOPs and explain each
+What is method overriding using static method (Method Resolution)
+What is mutiple inheritance, and why it can't be achieved using classes
+What is maven 
+What is git
+RestController to get all users data
+Difference between the PathVariable and RequestParams
+What is Spring MVC 
+What is Spring Framework
+What is Junit and its annotations
+What is Mockito and differences between the JUnit and Mockito
+What is the Bean scopes
+What is ExceptionHandling  and its hierarchy
+Can finally be used without try-catch block
+What are Checked and Unchecked Expections and what are they
+How u will create Custom Exceptions
+What is Collections Hierarchy and explain
+What is Difference between the ArrayList and Linked List
+What is Set Interface and its Implementations
+What is HashMap and How it maintains duplicates key and internal working of it
+Can HashMap contain null and what are its properties
+How u can add the data in HashMap
+Difference between the HashSet, LinkedHashSet and TreeSet
+String methods to check null 
+Java 8 Features 
+What are changes in Date and Time from Java8
+How many ways u can create a Thread
+What is difference Threads and Runnable 
+What is Difference between the Runnable and Callable
+What is wait() and notify()
+What is Executor Service
+What is violate keyword
+How thread communicate with each other?
+Rest Controller Code to get all users data and explain the code
+Streams Sum of even integer
+
+jdk vs jvm jvm architecture streams fliter even numbers , square them and fins sum
+what are intermediate and terminal operations examples of stateless and stateful operations reduce syntax
+Difference b/w notify and notifyall
+diff between wait and sleep - threads diff between run method and start method tell about executor framework what is callable, why callable ? in how many ways
+Why do need functional interface, why lambdas,why method references, implement construcor reference.
+optionals example of a many to one mapping what is need of wrapper classes what are parallel streams string builder vs string buffer
+can static method access non static variables is static inner class allowed and examples of such use cases
+why method overloading
+What is constructor overloading and what is runtime polymorphism.
+why do we need object oriented programing what is o and i in SOLID why were private static methods introduced in interfaces what is default keyword what is encapsulation dry,
+All solid principles , kiss, yagni
+are comments good or bad in code, examples of comments in both cases where they are useful and not useful why is good naming convention important why do we do unit testing all annotations of junit and Mockito almost can we test private methods can we mock static methods what is spy and stub assertion types in junit can exceptions be tested what is git why do we need branching strategies in git what is git cherry pick what is maven maven lifecycle maven build lifecycle important maven commands verify function in testing explain singleton design pattern fastest data structure to insert, delete, access collection interface hierarchy and exceptions hierarchy
+what all interfaces queue implements what is lifo how is hashmap internally implemented difference between hashmap and hashtable search time complexity of an array list java 8 features
+Code snippets related to try and catch
+finally block what it is and why used what is treemap does treemap allow null and why ? how is linked list internally stored and how is data stored inside a linked
+Asked to implement arraylist and linkedlist
+list bean scopes when is new what is IoC what does it do ?
+What is XML configuration , java based , annotation based.
+Springboot annotations.
+design patterns used in microservices horizontal vs vertical scaling differences monolith and microservices when would you prefer to use monolithic architecture how do services communicate with each other is feign communication synchronous or asynchronous what is eureka  ✅
+what is jpa repository and all its annotations
+what is response entity
+what do we need dto when we have entity what is path variable ? implement an api with query parameters
+What is adapter , what is observer,
+asked me to show my project
+
+
+ 
+Create a immutable class.
+Demonstrate Access modifier
+Stream ques- set of employee group them on the basis of department and find max salary.
+Clean coding
+Discussion happened on List.of and unmodifiable list()
+Demonstrate ConcurrentModificationException, how will u resolve it.
+Dependency injection, Ioc container
+Construtor, setter injection, which is best and which is preferred when and why.
+Create controller, service and implement feign client.
+What is jwt?
+Microservices what do you know then why microservices and when it is not suitable to implement,.api gateway, service registry. How will you implement.✅
+Also he asked about jpa mapping one to one one to many
+
+
+
+Singleton Eager implementation, what is double checked
+Jumped to lazy
+Telll me one way to break singleton
+Design an Employee class- solved some easy questions on streams
+Collection based practical questions
+Naming conventions while writing code did some practical questions
+Again asked some collection questions- Linked list question
+Static keyword questions
+Demonstrate inheritance - ask to throw some exceptions and handle it
+Asked polymorphism-jumped to overiding and overloading questions from inheritance
+code.- ask some scenario based questions
+Any Spring boot 5 annotations
+Dependency injection
+Implement a REST controller - asked some basic questions while implementing
+JVM - Class loader, execution engine and garbage collector
+Types of GC
+Functional interfaces
+Design a custom exception
+
+
+Was asked about pbe , annotations used, repository(said it was dynamoDb)
+abstract classes vs interface
+object class methods
+Hashcode what it does
+runtime polymorphism
+try finally works if exception occurs
+try with resources (if exception ocuurs) if not
+linked list also has get method to access random if then why arraylist
+predicate to get string length >5
+Difference between spring object and object
+Bean Scopes
+Qualifier (why we have more than one instance where we use)
+SOLID-L
+design patterns - strategy
+LoadBalancing
+we have DNS why we need FeignClient  (why we need to hardcode  IP address)
+How do you write native query?
+@Table,@Entity difference
+Primary key vs unique key,foreign key
+joins in sql and how joins implemented in spring
+@joincoulmn
+mock vs spy
+assertEquals and assertSame
+@mock vs @mockBean
+create controller to fetch list of all users, users by role
+find second largest string based on length using java 8
+
+
+SOLID , all design patterns you know
+Singleton theory then Implement
+Anagram  grouping  
+basic Employee filtering Stream
+Comparable and comparator theory then implementation
+String , String Builder and String Buffer -> theory then implment some basic functionality
+Spring DataJpA - complete flow how and what all we have to do to add it in our project {luckily time over so no implementation }
+Junit - all layer testing along with annotations { how @Mock,@InjectMock and @MockBean work}
+ExecutorService theory then implement and add some tasks in it.
+Lambda thoery, basic lambda function,supp,,,,,         
+interface vs abstract class
+Tell me how to implement a microservice.
+when i mentioned about load balancing in the microservice part so she asked me which algorithm is used in AWS apigateway loadbalancing.  //round robin ✅          
+HashMap Internal Implementation
+custom exception
+hashcode , equals
+
+
+Cloning- swallow copy and deep copy for 20 mins(implementation, theory, working, testing that too)
+ 
+Make a class with dependency with other class
+Then make it immutable
+Then make the dependent class as record
+Singleton pattern: all possible questions
+Thread safe and other things related to it, also checking it, stopping reflection to make it duplicate objects
+Implement coustom Linked list, internal implementation of hash map, hash code and equals contract
+If we create a custom key in hashmap what are the requirements
+Access modifiers: protected
+Auto unboxing, null exceptions in this
+Working of Optional
+Comparator and comparable, default behaviour of the object if used in streams
+Streams: first character with least frequency in a word
+Beans life cycle
+Beans and Component
+What is IoC
+How you consume APIs
+How to use Repository annotations
+Server side and client side service discovery
+Define API gateway and what operations it performs, features
+Explain SOLID: I and L here
+How IoC does injection?
+How enableAutoConfigation works?
+
+
+==============================================================================================================================
+. What is OOPs → mainly four pillars
+2. Features of JAVA 8 → Stream API, Functional Interface, Lambdas, Optional, Hashmap Optimization, 
+3. JAVA 17 → records, sealed classes, switch conciesness
+4. Diamond Problem
+5. Types of Constructor
+6. difference between arraylist and linkedlist → Arraylist implements random access, Localized caching
+7. Terminal and intermediate operations
+8. final, finally, finalize. → Does not guarantee immediate cleanup
+9. JUnit annotations used in project
+10. What is need of create mock
+11. Inject mocks
+12. Transitive dependency → example in project
+13. how to exclude dependency in pom
+14. git blame
+15. git squash
+16. fastforward merge
+17. ACID
+18. how can u achieve acid in in code → @Transaction
+19. JWT token , why is it used, explain
+20. Authentication flow → JWT, userdetailService, securityconfig
+21. difference between authentication and autharization
+22. differencet between htttp codes and what i have used
+23. exception heirarchy
+24. @RestController, @QueryParameters, 
+25. Trunc based and feature based
+26. Design patterns used on project
+27. What repositories have i used
+28. jpa flush
+29. how did u conversed between services in microservices 
+30. What logging and tracking is used 
+31. shared configuration 
+32. what microservices architecture we have used in project 
+33. Why we need cors origin and how to use
+34. @Query
+35. how to differentiate between native and jpql query When u write @Query
+36. What will happen if we write native query and not use @Native
+37. duplicates, join, basics of SQL
+38. sprinboot starter
+39. @Component scan, @enableautoconfig
+40. PUT and PATCH
+41. Springboot actuator
+42. need of spring profiling
+43. @Autowiring, @Qualifier
+44. Hashmap internal working
+45. What are records
+46. Types of keys
+47. How to make immutable class
+48. difference between of and ofNullable in Optional
+49. Can there be nonstatic field in singleton
+50. JVM and JVM architecture
+51. Load balancing, circuit breaker and API gateway ✅
+52. BCrypt encoder
+53. Mock MVC 
+54. Where is staging area present in local
+55. How to write post in a different way
+56. JPA mapping
+57. produces and consumes in controller
+58. Explain how euruka maintains service instances, if a service dosent send a heartbeat what happens ✅
+59. Create a Feign client in a Payment app that performs a POST request for payments, with retry logic configured for a maximum of 3 attempts and a 1-second backoff between retries.✅
+60. how api gateway implement circuit breaker 
+61. what is an api gateway? How the interaction is happening✅
+62. What is service registry
+63. lets say if one microservice fails, the transaction will give problem then how is it better than monolithic
+64. saga pattern
+65. if microservice a throws exception b and b uses api of a, how is it thrown in b and how is it handled 
+66. Microservices design pattern 
+67. Practical of microservice 
+68. annotations in springboot
+69. how @SpringBootApplication works internally
+70. how to change port of tomcat programmatically
+71. @Valid and @BindingResult
+72. Exact situation we use prototype bean
+73. How to write a native query
+74. @Bean vs @Component
+75. How does springboot autoconfigure the data source
+76. Hateoas
+77. where clause in JPA
+78. JPQL query
+79. When to use Junit and when to use mockito
+80. First principle, Triple
+81. implement a stack using array deque
+82. when to use identity hashmap over hashmap
+83. Custom iterable class that generates even numbers upto n
+84. internal working of CopyonWriteArrayList
+85. LRU caching
+86. autoboxing and unboxing
+87. write a predicate if a string is palindrome, based on this filter a list
+88. replace a lambda with method reference
+89. how to use function.identity to remove redundancy
+90. why lambdas can only use effectively final
+
+
+
+Spring Boot
+
+1.@Autowired -> constructor and field difference
+2.programmatically change the port number of server
+3.@valid use ? how it checks the validations and how it binds results. ? explain
+4.protoype use case -> returning list !
+5.Query on joins 
+6.bean vs component
+7.How does springBoot autoconfigures the database (ans - pom file - jpa dependency) and how to connect and autoconfigure the database connectivity.
+ also know how to connect with preexisting database.
+8. what is Hate-Oas? how to implement ? what is RMM
+9. implement a soft delete in db with @where
+10. what is n+1 problem in jpa ?  how to solve this ? whats performance issue  with this ? what is enity-graph annotation.?
+11. writing jpql query ? 
+
+
+
+Collections
+
+1. ArrayList convert  to LinkedList and vice versa and what's internally happening?
+2. stack using array ? code use add , pop etc.. -> use array Deque and why not stack?
+3. when Identiy hash map over hashmap?
+4. code write a custom iterable class to generate even numbers?
+5. LRU cache mechanism ? connect with linked hashmap
+6. internal implementation of copywrite arraylist and etc synchronized.
+7. example on each and every collections.
+8. custom class implementations on collections
+9. using a linked hash map write a code to find  distinct numbers 1:00:12
+10. stack based question - balance parenthesis
+11. implementing queue using stack
+
+
+Core 
+
+1.how does string builder improve performance in string concatenation with loops.
+2.autoboxing , unboxing , code snippet
+3. solve the quizzes all 
+4. directories ? source , target folders , pom files . transitive dependency , resolve conflicts in maven , nearest defn rule in maven 
+
+
+Java -8 
+
+1.convert anonymous to lambda 
+2.write predicate - palindrome -> filter the list then accordingly
+3.replace lambda with method reference ? method reference pre-requisites
+4.streams - sum of all even numbers
+5 optional of vs null
+6.function.identity ?  remove redundancy ?
+7.why can lambdas only acess efeective final variables only
+
+
+
+

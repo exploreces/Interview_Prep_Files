@@ -1,0 +1,45 @@
+1. Find and print the sum of all even numbers in a list of integers.(Done)
+2. Convert a list of Strings to uppercase and filter out the ones starting with 'A'.(Done)
+3. Calculate the average salary of employees over the age of 30 from a list.(Done)
+4. Merge two lists of integers into a single sorted list without duplicates.(Done)
+5. Find all transactions in 2011 and sort by value; find all traders from "Cambridge" and sort by name.
+6. Generate 10 random numbers, filter out even numbers, and print odd numbers.(Done)
+7. Group a list of words by length, and print the length along with associated words.(Done)
+8. Find the most frequent element in a list of integers.
+9. Print book titles costing more than $20 and by authors starting with 'J'.(Done)
+10. Convert a Map<String, Integer> into a sorted list of "key=value" strings.
+11. Find the maximum value in an array of integers using Java Streams.
+12. Count employees with names starting with 'S' in a list.
+13. Double each value in a list of integers, filtering out results greater than 50.
+14. Count the occurrence of each character in a string.
+15. Convert a list of persons to a map grouping by city with names of people from that city.
+16. Find and print the longest string in a list of strings.
+17. Identify and print the third highest number from an unsorted list of integers.
+18. Transform a list of booleans to 1 for true and 0 for false.
+19. Print the average order amount for all completed orders from a list of orders.
+20. Sum up all integers in a 2D array using Java Streams.
+21. Concatenate all strings from a list into a single string.
+22. Find and print all unique characters in a string.
+23. Return the longest name from a list of names.
+24. Find the highest-scoring player in each sport from a list of players.
+25. Create a frequency map of integers from a list using Java Streams.
+26. Use Java Streams to filter and print all prime numbers from a list of integers.
+27. Given a list of products (each with a name, price, and category), use Java Streams to find the cheapest product in each category.
+28. Write a Java Streams expression to flatten a list of lists of integers into a single list of integers.
+29. From a list of scores (doubles), use Java Streams to print all scores that are a new high score, i.e., each score that is higher than all previous scores in the list.
+30. Use Java Streams to calculate the standard deviation of a list of numbers.
+31. Given a list of transactions, each containing an amount and a currency, use Java Streams to sum all transactions in USD.
+32. Write a Java Stream expression to implement a natural language word frequency analyzer: given a list of sentences, find and print the frequency of each word across all sentences.
+33. Use Java Streams to remove duplicates from an array of strings and print the resulting array.
+34. Given a set of student records (name, grade), use Java Streams to find and print the name of the student with the highest grade.
+35. Implement a stream that takes a list of integers, multiplies each integer by 2, and retains only those results that are prime numbers, finally printing out these primes.
+36. Given a list of Person objects, each with properties name, age, and list of skills, use Java streams to print the name of each person who has "Java" as one of their skills.
+37. Write a Java Streams expression to calculate the product (multiplication) of all elements in a list of integers.
+38. Use Java Streams to find the longest string in a list of strings that contains the given substring.
+39. Given a map where each key is a topic and each value is a list of books, use Java Streams to print the total number of books across all topics.
+40. Implement a function using Java Streams that checks if all strings in a list are of length greater than 5.
+41. Write a Java Streams expression to transform a list of integers into a comma-separated string of their squared values.
+42. Use Java Streams to find the second lowest integer in a list of integers.
+43. Given a list of customer transactions (customerId, amount), use Java Streams to calculate and print the total transaction amount for each customer.
+44. Implement a Java Stream that filters a list of timestamps (Long type), removing any that are from the previous month.
+45. Use Java Streams to split a list of numbers into two lists: one containing multiples of 3, and the other containing all other numbers.
